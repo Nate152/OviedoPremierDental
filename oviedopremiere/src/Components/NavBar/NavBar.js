@@ -9,12 +9,12 @@ class NavBar extends React.Component {
           <div>
               <AppBar position='static'>
                 <div className='navbar'>
-                  <Button>Home</Button>
-                  <Button>About</Button>
-                  <Button>Dental Services</Button>
-                  <Button>Our Office</Button>
-                  <Button>Patient Packet</Button>
-                  <Button>Reviews</Button>
+                  <Button color='inherit'>Home</Button>
+                  <Button color='inherit'>About</Button>
+                  <Button color='inherit'>Dental Services</Button>
+                  <Button color='inherit'>Our Office</Button>
+                  <Button color='inherit'>Patient Packet</Button>
+                  <Button color='inherit'>Reviews</Button>
                 </div>
               </AppBar>
           </div>  
