@@ -1,17 +1,18 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 class Footer extends React.Component {
     render() {
         return (
             <div className='footer'>
-                <Button>Home</Button>
-                <Button>About</Button>
-                <Button>Dental Services</Button>
-                <Button>Our Office</Button>
-                <Button>Patient Packet</Button>
-                <Button>Reviews</Button>
+                <Button><Link to='/'>Home</Link></Button>
+                <Button><Link to='/About'>About</Link></Button>
+                <Button><Link to='/DentalServices'>Dental Services</Link></Button>
+                <Button><Link to='/OurOffice'>Our Office</Link></Button>
+                <Button><Link to='/PatientPacket'>Patient Packet</Link></Button>
+                <Button><Link to='/Reviews'>Reviews</Link></Button>
             </div>
         );
     }
