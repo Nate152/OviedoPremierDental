@@ -21,11 +21,11 @@ class HomePage extends React.Component {
                 <div className='middle'>
                     <div className='message'>
                         <Paper elevation={5}>    
-                            <Typography variant='h4' component='h2'>A word from our Dentist</Typography>
-                            <Typography variant='body1' component='p'> Oviedo Premier Dental is the premier dental health establishment in the Orlando / Oviedo Area. Our pledge to our patients is to provide the highest of patient-focused quality care while maintaining competitive fees for you.</Typography>
-                            <Typography component='p'> We realize that each individual is different, and we want every patient to be an active and informed participant in his or her treatment. By providing thorough explanations of all options, encouraging questions and addressing concerns, we empower our patients to take control of their dental health. Together, we will create a healthy smile for your future.</Typography>
-                            <Typography variant='subheading' component='p'>Thank you for placing your trust in our office.</Typography>
-                            <Typography variant='overline' component='p'>-Dr. Michael R Simpson</Typography>
+                            <Typography variant='h4' component='h2' gutterBottom align='center'>-A word from our Dentist-</Typography>
+                            <Typography variant='body1' component='p' gutterBottom align='center'>Oviedo Premier Dental is the premier dental health establishment in the Orlando / Oviedo Area. Our pledge to our patients is to provide the highest of patient-focused quality care while maintaining competitive fees for you.</Typography>
+                            <Typography variant='body1' component='p' gutterBottom align='center'>We realize that each individual is different, and we want every patient to be an active and informed participant in his or her treatment. By providing thorough explanations of all options, encouraging questions and addressing concerns, we empower our patients to take control of their dental health. Together, we will create a healthy smile for your future.</Typography>
+                            <Typography variant='h5' component='p' gutterBottom align='center'>Thank you for placing your trust in our office.</Typography>
+                            <Typography variant='overline' component='p' gutterBottom align='center'>-Dr. Michael R Simpson</Typography>
                         </Paper>
                     </div>
                     <div className='instruments'></div>
