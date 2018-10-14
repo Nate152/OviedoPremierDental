@@ -22,7 +22,41 @@
     z-index: 3;
     position: relative;
     top: -65vh;
-    right: -62vw;
+    right: -59vw;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.mission {
+    width: 33%;
+    z-index: 3;
+    position: relative;
+    top: -65vh;
+    right: -59vw;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+}
+
+.middle {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+
+.message {
+    width: 50vw;
+    padding-top: 8vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.instruments {
+    width: 45vw;
+    height: 45vh;
+    background-image: url('https://images.unsplash.com/photo-1524499982521-1ffd58dd89ea?ixlib=rb-0.3.5&s=5fb8a87a5e0bd36013af1a71f6d91f97&auto=format&fit=crop&w=837&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2vw;
 }

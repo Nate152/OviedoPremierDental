@@ -10,7 +10,7 @@ const theme = createMuiTheme({
       light: '#33c9dc',
       main: '#00bcd4',
       dark: '#008394',
-      contrastText: '#fff',
+      contrastText: '#000000',
     },
     secondary: {
       main: '#B79A3F',
@@ -25,12 +25,12 @@ class NavBar extends React.Component {
               <MuiThemeProvider theme={theme}>
               <AppBar color='primary' position='static'>
                 <div className='navbar'>
-                  <Button href='/'color='inherit'>Home</Button>
-                  <Button href='/About' color='inherit'>About</Button>
-                  <Button href='/DentalServices' color='inherit'>Dental Services</Button>
-                  <Button href='/OurOffice' color='inherit'>Our Office</Button>
-                  <Button href='/PatientPacket' color='inherit'>Patient Packet</Button>
-                  <Button href='/Reviews' color='inherit'>Reviews</Button>
+                  <Button href='/'>Home</Button>
+                  <Button href='/About'>About</Button>
+                  <Button href='/DentalServices'>Dental Services</Button>
+                  <Button href='/OurOffice'>Our Office</Button>
+                  <Button href='/PatientPacket'>Patient Packet</Button>
+                  <Button href='/Reviews'>Reviews</Button>
                 </div>
               </AppBar>
               </MuiThemeProvider>
