@@ -60,3 +60,13 @@
     background-size: cover;
     margin: 2vw;
 }
+
+.certifications {
+    width: 100vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}

@@ -7,9 +7,9 @@ class Footer extends React.Component {
         return (
             <div className='footer'>
                 <Button href='/'>Home</Button>
+                <Button href='/OurOffice'> About Our Office</Button>
                 <Button href='/HoursLocation'>Hours & Location</Button>
                 <Button href='/DentalServices'>Dental Services</Button>
-                <Button href='/OurOffice'>Our Office</Button>
                 <Button href='/PatientPacket'>Patient Packet</Button>
                 <Button href='/Reviews'>Reviews</Button>
             </div>
