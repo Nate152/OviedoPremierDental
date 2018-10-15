@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
       <NavBar />
       <Route exact path='/' component={HomePage} />
-      <Route exact path='/About' />
+      <Route exact path='/HoursLocation' />
       <Route exact path='/DentalServices' />
       <Route exact path='/OurOffice' />
       <Route exact path='/PatientPacket' />

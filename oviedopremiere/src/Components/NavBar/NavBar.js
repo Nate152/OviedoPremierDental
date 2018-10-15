@@ -26,7 +26,7 @@ class NavBar extends React.Component {
               <AppBar color='primary' position='static'>
                 <div className='navbar'>
                   <Button href='/'>Home</Button>
-                  <Button href='/About'>About</Button>
+                  <Button href='/HoursLocation'>Hours & Location</Button>
                   <Button href='/DentalServices'>Dental Services</Button>
                   <Button href='/OurOffice'>Our Office</Button>
                   <Button href='/PatientPacket'>Patient Packet</Button>

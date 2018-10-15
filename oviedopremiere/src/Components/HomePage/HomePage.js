@@ -28,7 +28,7 @@ class HomePage extends React.Component {
                             <Typography variant='overline' component='p' gutterBottom align='center'>-Dr. Michael R Simpson</Typography>
                         </Paper>
                     </div>
-                    <div className='instruments'></div>
+                    <div className='eyes'></div>
                 </div>
             </div>
         );
