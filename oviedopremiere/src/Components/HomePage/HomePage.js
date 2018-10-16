@@ -38,12 +38,12 @@ class HomePage extends React.Component {
                     <div className='eyes'></div>
                 </div>
                 <div className='certifications'>
-                    <Paper elevation={1}><img src={Invisalign}/></Paper>
-                    <Paper elevation={1}><img src={Lumineers}/></Paper>
-                    <Paper elevation={1}><img src={ProAct}/></Paper>
-                    <Paper elevation={1}><img src={SomnoMed}/></Paper>
-                    <Paper elevation={1}><img src={TAP}/></Paper>
-                    <Paper elevation={1}><img src={URAC}/></Paper>
+                    <Paper elevation={1}><img src={Invisalign} alt='Invisalign'/></Paper>
+                    <Paper elevation={1}><img src={Lumineers} alt='Lumineers'/></Paper>
+                    <Paper elevation={1}><img src={ProAct} alt='ProAct'/></Paper>
+                    <Paper elevation={1}><img src={SomnoMed} alt='SomnoMed'/></Paper>
+                    <Paper elevation={1}><img src={TAP} alt='Thorton Adjustable Positioner'/></Paper>
+                    <Paper elevation={1}><img src={URAC} alt='URAC'/></Paper>
                 </div>
             </div>
         );
