@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './Components/NavBar/NavBar.js';
 import Footer from './Components/Footer/Footer.js';
 import HomePage from './Components/HomePage/HomePage.js';
+import OurOffice from './Components/OurOffice/OurOffice.js';
 
 
 class App extends Component {
@@ -15,7 +16,7 @@ class App extends Component {
       <Route exact path='/' component={HomePage} />
       <Route exact path='/HoursLocation' />
       <Route exact path='/DentalServices' />
-      <Route exact path='/OurOffice' />
+      <Route exact path='/OurOffice' component={OurOffice}/>
       <Route exact path='/PatientPacket' />
       <Route exact path='/Reviews' />
       <Footer />
