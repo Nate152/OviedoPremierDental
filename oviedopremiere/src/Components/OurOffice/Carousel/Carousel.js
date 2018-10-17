@@ -19,30 +19,30 @@ class ImageCarousel extends React.Component {
         return (
             <Carousel>
                 <div>
-                    <img src={Exterior} />
+                    <img src={Exterior} alt='Exterior'/>
                 </div>
                 <div>
-                    <img src={Reception1} />
+                    <img src={Reception1} alt='Reception Desk'/>
                     <p className="legend">Legend 3</p>
                 </div>
                 <div>
-                    <img src={Lobby} />
+                    <img src={Lobby} alt='Seating Area'/>
                     <p className="legend">Legend 4</p>
                 </div>
                 <div>
-                    <img src={Restrooms} />
+                    <img src={Restrooms} alt='Restrooms and waterfountain'/>
                     <p className="legend">Legend 6</p>
                 </div>
                 <div>
-                    <img src={TreatmentHallway} />
+                    <img src={TreatmentHallway} alt='Treatment Hallway'/>
                     <p className="legend">Legend 6</p>
                 </div>
                 <div>
-                    <img src={ExamRoom2} />
+                    <img src={ExamRoom2} alt='Exam Room'/>
                     <p className="legend">Legend 6</p>
                 </div>
                 <div>
-                    <img src={XRay} />
+                    <img src={XRay} alt='XRay Unit'/>
                     <p className="legend">Legend 6</p>
                 </div>
             </Carousel>
