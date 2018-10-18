@@ -10,7 +10,7 @@ class GoogleMap extends React.Component {
     render() {
         return (
             <div>
-                <Map google={this.props.google} zoom={18} initialCenter={{ lat: 28.656574, lng: -81.183598 }} style={style}>
+                <Map google={this.props.google} zoom={17} initialCenter={{ lat: 28.656574, lng: -81.183598 }} style={style}>
                     <Marker onClick={this.onMarkerClick} name={'Current location'} />
                 </Map>
             </div>

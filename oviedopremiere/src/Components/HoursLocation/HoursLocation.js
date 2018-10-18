@@ -17,7 +17,7 @@ class HoursLocation extends React.Component {
                     </div>
                     <div className='location'>
                         <h1>Location</h1>
-                        <p>We are located at 1445 E. Mitchell Hammock Rd., Oviedo, FL 32765. In order to get to the office you must turn onto Eastbridge Dr. and then take the first right as though you are going to the Fairwinds or StarChild. You will see our sign straight ahead and take the second right. We look foward to seeing you soon.</p>
+                        <p>We are located at 1445 E. Mitchell Hammock Rd., Oviedo, FL 32765. In order to get to the office you must turn onto Eastbridge Dr. and then take the second right as though you are going to the StarChild Academy. You will see our sign straight ahead and take the second right. We look foward to seeing you soon.</p>
                         <GoogleMap />
                     </div>
                 </div>
