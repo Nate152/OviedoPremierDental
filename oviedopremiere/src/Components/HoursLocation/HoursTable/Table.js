@@ -1,22 +1,22 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
+import React from "react";
+import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
+import Paper from "@material-ui/core/Paper";
 
 const styles = theme => ({
   root: {
-    width: '100%',
+    width: "100%",
     marginTop: theme.spacing.unit * 3,
-    overflowX: 'auto',
+    overflowX: "auto"
   },
   table: {
-    minWidth: 700,
-  },
+    minWidth: 700
+  }
 });
 
 let id = 0;
@@ -26,11 +26,11 @@ function createData(day, open, close) {
 }
 
 const rows = [
-  createData('Monday', '7:00 AM', '5:00 PM'),
-  createData('Tuesday', '7:00 AM', '5:00 PM'),
-  createData('Wednesday', '7:00 AM', '5:00 PM'),
-  createData('Thursday', '7:00 AM', '5:00 PM'),
-  createData('Friday', 'Closed', 'Closed'),
+  createData("Monday", "7:00 AM", "5:00 PM"),
+  createData("Tuesday", "7:00 AM", "5:00 PM"),
+  createData("Wednesday", "7:00 AM", "5:00 PM"),
+  createData("Thursday", "7:00 AM", "5:00 PM"),
+  createData("Friday", "Closed", "Closed")
 ];
 
 function HoursTable(props) {
@@ -63,7 +63,7 @@ function HoursTable(props) {
 }
 
 HoursTable.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(HoursTable);
