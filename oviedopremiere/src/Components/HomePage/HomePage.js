@@ -16,7 +16,7 @@ class HomePage extends React.Component {
         <div className="container">
           <div className="jumbotron" />
           <div className="title">
-            <h1>Oviedo Premiere Dental</h1>
+            <h1>Oviedo Premier Dental</h1>
             <h2>
               1445 E. Mitchell Hammock Rd.
               <br />
