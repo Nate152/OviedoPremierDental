@@ -12,25 +12,25 @@ const styles = theme => ({
   root: {
     width: "100%",
     marginTop: theme.spacing.unit * 3,
-    overflowX: "auto"
+    overflowX: "auto",
   },
   table: {
-    minWidth: 700
+    minWidth: 500,
   }
 });
 
 let id = 0;
-function createData(day, open, close) {
+function createData(day, open, lunch, close) {
   id += 1;
-  return { id, day, open, close };
+  return { id, day, open, lunch, close };
 }
 
 const rows = [
-  createData("Monday", "7:00 AM", "5:00 PM"),
-  createData("Tuesday", "7:00 AM", "5:00 PM"),
-  createData("Wednesday", "7:00 AM", "5:00 PM"),
-  createData("Thursday", "7:00 AM", "5:00 PM"),
-  createData("Friday", "Closed", "Closed")
+  createData("Monday", "7:00 AM", "1:00-2:00 PM", "5:00 PM"),
+  createData("Tuesday", "7:00 AM", "1:00-2:00 PM", "5:00 PM"),
+  createData("Wednesday", "7:00 AM", "1:00-2:00 PM", "5:00 PM"),
+  createData("Thursday", "7:00 AM", "1:00-2:00 PM", "5:00 PM"),
+  createData("Friday/Saturday/Sunday", "Closed", "Closed", "Closed")
 ];
 
 function HoursTable(props) {
@@ -43,6 +43,7 @@ function HoursTable(props) {
           <TableRow>
             <TableCell>Day</TableCell>
             <TableCell>Open</TableCell>
+            <TableCell>Lunch</TableCell>
             <TableCell>Close</TableCell>
           </TableRow>
         </TableHead>
@@ -52,6 +53,7 @@ function HoursTable(props) {
               <TableRow key={row.id}>
                 <TableCell>{row.day}</TableCell>
                 <TableCell>{row.open}</TableCell>
+                <TableCell>{row.lunch}</TableCell>
                 <TableCell>{row.close}</TableCell>
               </TableRow>
             );
