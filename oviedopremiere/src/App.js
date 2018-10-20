@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer.js";
 import HomePage from "./Components/HomePage/HomePage.js";
 import OurOffice from "./Components/OurOffice/OurOffice.js";
 import HoursLocation from "./Components/HoursLocation/HoursLocation.js";
+import PatientFormsFAQ from "./Components/PatientFormsFAQ/PatientFormsFAQ.js";
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
           <Route exact path="/HoursLocation" component={HoursLocation} />
           <Route exact path="/DentalServices" />
           <Route exact path="/OurOffice" component={OurOffice} />
-          <Route exact path="/PatientPacket" />
+          <Route exact path="/PatientFormsFAQ" component={PatientFormsFAQ} />
           <Route exact path="/Reviews" />
           <Footer />
         </div>

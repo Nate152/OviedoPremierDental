@@ -29,7 +29,7 @@ class NavBar extends React.Component {
               <Button href="/OurOffice">About Our Office</Button>
               <Button href="/HoursLocation">Hours & Location</Button>
               <Button href="/DentalServices">Dental Services</Button>
-              <Button href="/PatientPacket">Patient Packet</Button>
+              <Button href="/PatientFormsFAQ">New Patient Forms & FAQ</Button>
               <Button href="/Reviews">Reviews</Button>
             </div>
           </AppBar>
