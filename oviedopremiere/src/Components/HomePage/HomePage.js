@@ -14,7 +14,7 @@ class HomePage extends React.Component {
     return (
       <div>
         <div className="container">
-          <div className="jumbotron" />
+          <div className="jumbotron"/>
           <div className="title">
             <h1>Oviedo Premier Dental</h1>
             <h2>

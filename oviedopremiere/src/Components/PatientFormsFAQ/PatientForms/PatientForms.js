@@ -8,7 +8,7 @@ const theme = createMuiTheme({
   overrides: {
     MuiButton: {
       root: {
-        background: "#00bcd4",
+        background: "#4aedc4",
         borderRadius: 3,
         border: 5,
         color: "black",
