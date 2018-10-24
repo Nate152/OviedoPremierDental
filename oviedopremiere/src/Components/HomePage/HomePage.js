@@ -22,7 +22,7 @@ class HomePage extends React.Component {
               <br />
               Oviedo, FL 32765
             </h2>
-            <h2>(407) 977-6464</h2>
+            <h1>(407) 977-6464</h1>
           </div>
           <div>
             <h2 className="mission">

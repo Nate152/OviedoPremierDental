@@ -8,6 +8,7 @@ class PatientFormsFAQ extends React.Component {
       <div>
         <div className="faq">
           <div className="jumbotron1">
+          <div className="opacity-layer">
             <h1 className="h1">Frequently Asked Questions</h1>
             <div className="list">
               <ul className="ul">
@@ -20,7 +21,7 @@ class PatientFormsFAQ extends React.Component {
                 </li>
                 <p>
                   - Oveido Premier was opened in 2009 by its former owner. Prior
-                  to that Dr. Simpson was at Lockwood Dental.
+                  to that Dr. Simpson was at Lockwood Dental for 9+ years.
                 </p>
                 <li className="question">How long have you been in Oveido?</li>
                 <p>
@@ -34,6 +35,7 @@ class PatientFormsFAQ extends React.Component {
                 <li className="question">How many....</li>
                 <p>- Answer....</p>
               </ul>
+            </div>
             </div>
           </div>
         </div>
